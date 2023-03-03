@@ -95,3 +95,12 @@ nav > a:hover {
   height: 100%;
   max-width: 100%;
   }
+
+  .image-wrap {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
+  img {
+    max-width:100%;
+}
