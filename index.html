@@ -20,9 +20,9 @@
     <div style="background-color: rgb(63, 172, 87);" id="topo">
         <div class="flag-wrap">
             <span style="margin-left:20px; margin-right:20px;"><img src="images/uk2.png" type="image/png"
-                    alt="flagofuk"></span>
-            <span style="margin-right:20px;"><img src="images/china2.png" type="image/png" alt="flagofchina"></span>
-            <span><img src="images/cambodia2.png" type="image/png" alt="falgofcambodia"></span>
+                    alt="flagofuk" onclick="english()"></span>
+            <span style="margin-right:20px;"><img src="images/china2.png" type="image/png" alt="flagofchina" onclick="chinese()"></span>
+            <span><img src="images/cambodia2.png" type="image/png" alt="falgofcambodia" onclick="khmer()"></span>
         </div>
     </div>
     <header id="myHeader">
@@ -40,19 +40,18 @@
     </header>
 
     <nav id="mynav">
-        <a href="#farm">Farm</a>
-        <a href="#product">Pineapple</a>
-        <a href="#video">Videos</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contacts</a>
+        <a href="#farm" id="nav1">Farm</a>
+        <a href="#product" id="nav2">Pineapple</a>
+        <a href="#video" id="nav3">Videos</a>
+        <a href="#team" id="nav4">Team</a>
+        <a href="#contact" id="nav5">Contacts</a>
     </nav>
 
 
 <article>
-    <div class="album py-2" id="farm" style="background-color: rgba(0, 104, 73,40%); padding-bottom: 10px;">
+    <div class="album py-2"  style="background-color: rgba(0, 104, 73,40%); padding-bottom: 10px;">
         <div class="container" style="padding-bottom: 5px">
-            <h2 class="jumbotron-heading text-center" style="margin-top: 20px; margin-bottom: 15px;">Know the Farm</h2>
-
+            <h2 class="jumbotron-heading text-center" style="margin-top: 20px; margin-bottom: 15px;" id="farm">Know the Farm</h2>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card shadow-sm">
