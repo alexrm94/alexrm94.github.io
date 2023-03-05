@@ -25,11 +25,11 @@ function english() {
     nav5.style.fontFamily = "Love";
     
    
-    farm.innerHTML = "Know the Farm";
-    product.innerHTML = "Pineapple";
-    video.innerHTML = "Watch our Content";
-    team.innerHTML = "Know our team";
-    contact.innerHTML = "Contact Information";
+    farm.innerHTML = "KNOW THE FARM";
+    product.innerHTML = "PINEAPPLE";
+    video.innerHTML = "WATCH OUR CONTENT";
+    team.innerHTML = "MEET OUR TEAM";
+    contact.innerHTML = "CONTACT INFORMATION";
     nav1.innerHTML = "Farm";
     nav2.innerHTML = "Pineapple";
     nav3.innerHTML = "Videos";
