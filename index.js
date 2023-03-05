@@ -10,24 +10,26 @@ const nav2 = document.getElementById("nav2");
 const nav3 = document.getElementById("nav3");
 const nav4 = document.getElementById("nav4");
 const nav5 = document.getElementById("nav5");
-
+const txtimg1 = document.getElementById("txtimg1");
+const txtimg2 = document.getElementById("txtimg2");
 
 function english() {
-    farm.style.fontFamily = "Love"
-    product.style.fontFamily = "Love";
-    video.style.fontFamily = "Love";
-    team.style.fontFamily = "Love";
-    contact.style.fontFamily = "Love";
-    nav1.style.fontFamily = "Love";
-    nav2.style.fontFamily = "Love";
-    nav3.style.fontFamily = "Love";
-    nav4.style.fontFamily = "Love";
-    nav5.style.fontFamily = "Love";
-    
+    farm.style.fontFamily = "Adca"
+    product.style.fontFamily = "Adca";
+    video.style.fontFamily = "Adca";
+    team.style.fontFamily = "Adca";
+    contact.style.fontFamily = "Adca";
+    nav1.style.fontFamily = "arial";
+    nav2.style.fontFamily = "arial";
+    nav3.style.fontFamily = "arial";
+    nav4.style.fontFamily = "arial";
+    nav5.style.fontFamily = "arial";
+    txtimg1.style.fontFamily = "arial";
+    txtimg2.style.fontFamily = "arial";
    
-    farm.innerHTML = "KNOW THE FARM";
+    farm.innerHTML = "THE FARM";
     product.innerHTML = "PINEAPPLE";
-    video.innerHTML = "WATCH OUR CONTENT";
+    video.innerHTML = "MEDIA";
     team.innerHTML = "MEET OUR TEAM";
     contact.innerHTML = "CONTACT INFORMATION";
     nav1.innerHTML = "Farm";
@@ -35,7 +37,8 @@ function english() {
     nav3.innerHTML = "Videos";
     nav4.innerHTML = "Team";
     nav5.innerHTML = "Contacts";
-  
+    txtimg1.innerHTML = "Photography of the Plantation";
+    txtimg2.innerHTML = "Daylight Photography of the Plantation";
 
 
 
@@ -53,6 +56,8 @@ function chinese() {
     nav3.style.fontFamily = "Chinese";
     nav4.style.fontFamily = "Chinese";
     nav5.style.fontFamily = "Chinese";
+   // txtimg1.style.fontFamily = "Chinese";
+   // txtimg2.style.fontFamily = "Chinese";
    
     farm.innerHTML = "了解农场";
     product.innerHTML = "菠萝";
@@ -64,6 +69,8 @@ function chinese() {
     nav3.innerHTML = "影片";
     nav4.innerHTML = "团队";
     nav5.innerHTML = "联系人";
+    txtimg1.innerHTML = "菠萝种植园的照片";
+    txtimg2.innerHTML = "白天的菠萝种植园照片";
 }
 
 function khmer() {
@@ -87,6 +94,8 @@ function khmer() {
     nav3.style.fontFamily = "khmer";
     nav4.style.fontFamily = "khmer";
     nav5.style.fontFamily = "khmer";
+  //  txtimg1.style.fontFamily = "khmer";
+   // txtimg2.style.fontFamily = "khmer";
    
     farm.innerHTML = "ស្គាល់កសិដ្ឋាន";
     product.innerHTML = "ម្នាស់";
@@ -98,6 +107,8 @@ function khmer() {
     nav3.innerHTML = "វីដេអូ";
     nav4.innerHTML = "ក្រុម";
     nav5.innerHTML = "ទំនាក់ទំនង";
+  //  txtimg1.innerHTML = "រូបភាពចំការម្នាស់";
+  //  txtimg2.innerHTML = "រូបថតចំការម្នាស់ពេលថ្ងៃ";
 
 }
 

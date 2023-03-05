@@ -11,7 +11,8 @@ iframe{
 
 h2{
     padding-top: -150px;
-    font-family: 'Love';
+  font-family: 'Adca';
+    font-size: 16pt;
     color: rgb(0, 104, 73);
 }
 
@@ -57,7 +58,7 @@ nav{
     padding: 10px;
     text-align: center;
     background-color: rgb(63, 172, 87);
-    font-family: 'Love';
+    font-family: 'arial';
     color: rgb(0, 104, 73);
 
 }
@@ -196,9 +197,18 @@ body{
   width: 50%;
 }
 
+
+@font-face {
+  font-family: 'Adca';
+  src: url('fontes/Adca.ttf') format('truetype');
+  font-style: normal;
+}
+
+
+
 @font-face {
   font-family: 'Love';
-  src: url('fonts/BreeSerif-Regular.ttf') format('truetype');
+  src: url('fontes/BreeSerif-Regular.ttf') format('truetype');
   font-weight: bolder;
   font-style: normal;
 }
@@ -206,10 +216,27 @@ body{
 
 @font-face {
   font-family: 'Chinese';
-  src: url('fonts/NotoSansSC-Bold.otf') format('opentype');
+  src: url('fontes/NotoSansSC-Bold.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'khmer';
-  src: url('fonts/NotoSerifKhmer_Condensed-Bold.ttf') format('truetype');
+  src: url('fontes/NotoSerifKhmer_Condensed-Bold.ttf') format('truetype');
+}
+
+
+.navbardecima {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left,
+.navbar-right{
+  text-decoration: none;
+}
+
+.navbar-right {
+  margin-left: auto;
+  margin-right: 20px;
 }
