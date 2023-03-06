@@ -12,6 +12,21 @@ const nav4 = document.getElementById("nav4");
 const nav5 = document.getElementById("nav5");
 const txtimg1 = document.getElementById("txtimg1");
 const txtimg2 = document.getElementById("txtimg2");
+const txtimg3 = document.getElementById("txtimg3");
+const txtimg4 = document.getElementById("txtimg4");
+const contact2 = document.getElementById("contact2");
+const contact3 = document.getElementById("contact3");
+const contact4 = document.getElementById("contact4");
+const contact5 = document.getElementById("contact5");
+const contact6 = document.getElementById("contact6");
+const contact7 = document.getElementById("contact7");
+const footer1 = document.getElementById("footer1");
+const footer2 = document.getElementById("footer2");
+const footer3 = document.getElementById("footer3");
+const footer4 = document.getElementById("footer4");
+
+
+
 
 function english() {
     farm.style.fontFamily = "Adca"
@@ -26,6 +41,21 @@ function english() {
     nav5.style.fontFamily = "arial";
     txtimg1.style.fontFamily = "arial";
     txtimg2.style.fontFamily = "arial";
+  txtimg3.style.fontFamily = "arial";
+  txtimg4.style.fontFamily = "arial";
+  contact2.style.fontFamily = "arial";
+  contact3.style.fontFamily = "arial";
+  contact4.style.fontFamily = "arial";
+  contact5.style.fontFamily = "arial";
+  contact6.style.fontFamily = "arial";
+  contact7.style.fontFamily = "arial";
+  footer1.style.fontFamily = "arial";
+  footer2.style.fontFamily = "arial";
+  footer3.style.fontFamily = "arial";
+  footer4.style.fontFamily = "arial";
+ 
+
+
    
     farm.innerHTML = "THE FARM";
     product.innerHTML = "PINEAPPLE";
@@ -39,9 +69,19 @@ function english() {
     nav5.innerHTML = "Contacts";
     txtimg1.innerHTML = "Photography of the Plantation";
     txtimg2.innerHTML = "Daylight Photography of the Plantation";
-
-
-
+  txtimg3.innerHTML = "Set of photos showing a pineapple growing";
+  txtimg4.innerHTML = "Photo of the team";
+  contact2.innerHTML = "Sangkat Tonle Bassac 3/F., G-06 & G-08, Street Galileo, Elite Town"
+  contact3.innerHTML = "Koh Pich, Sangkat Tonle Bassac, Khan Charmkamorn";
+  contact4.innerHTML = "Phnom Penh, Kingdom of Cambodia. Postal Code: 120101";
+  contact5.innerHTML = "Email: altculturefarm@gmail.com";
+  contact6.innerHTML = "Phone: +855 888 112 118";
+  contact7.innerHTML = "Opening hours: Monday to Friday, 8AM to 5PM";
+  footer1.innerHTML = "Pineapple";
+  footer2.innerHTML = "Media";
+  footer3.innerHTML = "Team";
+  footer4.innerHTML = "Contacts";
+  
 }
 
 
@@ -56,8 +96,6 @@ function chinese() {
     nav3.style.fontFamily = "Chinese";
     nav4.style.fontFamily = "Chinese";
     nav5.style.fontFamily = "Chinese";
-   // txtimg1.style.fontFamily = "Chinese";
-   // txtimg2.style.fontFamily = "Chinese";
    
     farm.innerHTML = "了解农场";
     product.innerHTML = "菠萝";
@@ -71,6 +109,19 @@ function chinese() {
     nav5.innerHTML = "联系人";
     txtimg1.innerHTML = "菠萝种植园的照片";
     txtimg2.innerHTML = "白天的菠萝种植园照片";
+  txtimg3.innerHTML = "一组显示菠萝生长的照片";
+  txtimg4.innerHTML = "工人合影";
+  contact2.innerHTML = "Sangkat Tonle Bassac 3/F., G-06 & G-08, Street Galileo, Elite Town"
+  contact3.innerHTML = "Koh Pich, Sangkat Tonle Bassac, Khan Charmkamorn";
+  contact4.innerHTML = "Phnom Penh, Kingdom of Cambodia. Postal Code: 120101";
+  contact5.innerHTML = "电子邮件: altculturefarm@gmail.com";
+  contact6.innerHTML = "电话: +855 888 112 118";
+  contact7.innerHTML = "营业时间：周一至周五，上午 8 点至下午 5 点";
+  footer1.innerHTML = "菠萝";
+  footer2.innerHTML = "媒体";
+  footer3.innerHTML = "团队";
+  footer4.innerHTML = "联系人";
+  
 }
 
 function khmer() {
@@ -94,8 +145,7 @@ function khmer() {
     nav3.style.fontFamily = "khmer";
     nav4.style.fontFamily = "khmer";
     nav5.style.fontFamily = "khmer";
-  //  txtimg1.style.fontFamily = "khmer";
-   // txtimg2.style.fontFamily = "khmer";
+
    
     farm.innerHTML = "ស្គាល់កសិដ្ឋាន";
     product.innerHTML = "ម្នាស់";
@@ -107,10 +157,23 @@ function khmer() {
     nav3.innerHTML = "វីដេអូ";
     nav4.innerHTML = "ក្រុម";
     nav5.innerHTML = "ទំនាក់ទំនង";
-  //  txtimg1.innerHTML = "រូបភាពចំការម្នាស់";
-  //  txtimg2.innerHTML = "រូបថតចំការម្នាស់ពេលថ្ងៃ";
-
+    txtimg1.innerHTML = "រូបភាពចំការម្នាស់";
+    txtimg2.innerHTML = "រូបថតចំការម្នាស់ពេលថ្ងៃ";
+    txtimg3.innerHTML = "បណ្តុំរូបថតបង្ហាញពីដើមម្នាស់ដុះ";
+    txtimg4.innerHTML = "រូបថតរបស់កម្មករ";
+    contact2.innerHTML = "Sangkat Tonle Bassac 3/F., G-06 & G-08, Street Galileo, Elite Town"
+    contact3.innerHTML = "Koh Pich, Sangkat Tonle Bassac, Khan Charmkamorn";
+    contact4.innerHTML = "Phnom Penh, Kingdom of Cambodia. Postal Code: 120101";
+  contact5.innerHTML = "អ៊ីមែល: altculturefarm@gmail.com";
+  contact6.innerHTML = "ទូរស័ព្ទ: +855 888 112 118";
+  contact7.innerHTML = "ម៉ោងបើក៖ ច័ន្ទដល់សុក្រ ពីម៉ោង ៨ព្រឹក ដល់ ៥ល្ងាច";
+  footer1.innerHTML = "ម្នាស់";
+  footer2.innerHTML = "ប្រព័ន្ធផ្សព្វផ្សាយ";
+  footer3.innerHTML = "ក្រុម";
+  footer4.innerHTML = "ទំនាក់ទំនង";
+    
 }
+
 
 
 
