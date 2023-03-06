@@ -1,4 +1,4 @@
-var r = document.querySelector(':root');
+//var r = document.querySelector(':root');
 
 const farm = document.getElementById("farm");
 const product = document.getElementById("product");
@@ -24,7 +24,7 @@ const footer1 = document.getElementById("footer1");
 const footer2 = document.getElementById("footer2");
 const footer3 = document.getElementById("footer3");
 const footer4 = document.getElementById("footer4");
-
+const footer5 = document.getElementById("footer5");
 
 
 
@@ -53,7 +53,7 @@ function english() {
   footer2.style.fontFamily = "arial";
   footer3.style.fontFamily = "arial";
   footer4.style.fontFamily = "arial";
- 
+  footer4.style.fontFamily = "arial";
 
 
    
@@ -77,11 +77,11 @@ function english() {
   contact5.innerHTML = "Email: altculturefarm@gmail.com";
   contact6.innerHTML = "Phone: +855 888 112 118";
   contact7.innerHTML = "Opening hours: Monday to Friday, 8AM to 5PM";
-  footer1.innerHTML = "Pineapple";
-  footer2.innerHTML = "Media";
-  footer3.innerHTML = "Team";
-  footer4.innerHTML = "Contacts";
-  
+  footer1.innerHTML = "Farm";
+  footer2.innerHTML = "Product";
+  footer3.innerHTML = "Media";
+  footer4.innerHTML = "Team";
+  footer5.innerHTML = "Contacts";
 }
 
 
@@ -117,11 +117,11 @@ function chinese() {
   contact5.innerHTML = "电子邮件: altculturefarm@gmail.com";
   contact6.innerHTML = "电话: +855 888 112 118";
   contact7.innerHTML = "营业时间：周一至周五，上午 8 点至下午 5 点";
-  footer1.innerHTML = "菠萝";
-  footer2.innerHTML = "媒体";
-  footer3.innerHTML = "团队";
-  footer4.innerHTML = "联系人";
-  
+  footer1.innerHTML = "农场";
+  footer2.innerHTML = "菠萝";
+  footer3.innerHTML = "媒体";
+  footer4.innerHTML = "团队";
+  footer5.innerHTML = "联系人";
 }
 
 function khmer() {
@@ -167,13 +167,12 @@ function khmer() {
   contact5.innerHTML = "អ៊ីមែល: altculturefarm@gmail.com";
   contact6.innerHTML = "ទូរស័ព្ទ: +855 888 112 118";
   contact7.innerHTML = "ម៉ោងបើក៖ ច័ន្ទដល់សុក្រ ពីម៉ោង ៨ព្រឹក ដល់ ៥ល្ងាច";
-  footer1.innerHTML = "ម្នាស់";
-  footer2.innerHTML = "ប្រព័ន្ធផ្សព្វផ្សាយ";
-  footer3.innerHTML = "ក្រុម";
-  footer4.innerHTML = "ទំនាក់ទំនង";
-    
+  footer1.innerHTML = "农场";
+  footer2.innerHTML = "ម្នាស់";
+  footer3.innerHTML = "ប្រព័ន្ធផ្សព្វផ្សាយ";
+  footer4.innerHTML = "ក្រុម";
+  footer5.innerHTML = "ទំនាក់ទំនង";
 }
-
 
 
 
