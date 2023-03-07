@@ -242,3 +242,12 @@ body{
 }
 
 
+.image-wrap2 {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.image-wrap2 img {
+  max-width:100%;
+}
